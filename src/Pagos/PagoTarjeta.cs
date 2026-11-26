@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace WhyShop.Pagos
 {
@@ -22,9 +23,9 @@ namespace WhyShop.Pagos
                 return new ResultadoPago(false, "Error: El monto a pagar debe ser mayor a cero.", monto);
             }
 
-            if (string.IsNullOrWhiteSpace(_numeroTarjeta) || _numeroTarjeta.Length < 16)
+            if (string.IsNullOrWhiteSpace(_numeroTarjeta) || _numeroTarjeta.Length != 16 || !_numeroTarjeta.All(char.IsDigit))
             {
-                return new ResultadoPago(false, "Alerta: Número de tarjeta inválido. Verifica los datos.", monto);
+                return new ResultadoPago(false, "Alerta: Número de tarjeta inválido. Debe contener exactamente 16 dígitos.", monto);
             }
 
             string codigo = $"TARJ-{Guid.NewGuid().ToString().Substring(0, 8).ToUpper()}";

@@ -1,0 +1,12 @@
+/workspaces/WhyShop/src/Pagos/bin/Debug/net10.0/WhyShop.Pagos.deps.json
+/workspaces/WhyShop/src/Pagos/bin/Debug/net10.0/WhyShop.Pagos.dll
+/workspaces/WhyShop/src/Pagos/bin/Debug/net10.0/WhyShop.Pagos.pdb
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/WhyShop.Pagos.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/WhyShop.Pagos.AssemblyInfoInputs.cache
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/WhyShop.Pagos.AssemblyInfo.cs
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/WhyShop.Pagos.csproj.CoreCompileInputs.cache
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/WhyShop.Pagos.sourcelink.json
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/WhyShop.Pagos.dll
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/refint/WhyShop.Pagos.dll
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/WhyShop.Pagos.pdb
+/workspaces/WhyShop/src/Pagos/obj/Debug/net10.0/ref/WhyShop.Pagos.dll
